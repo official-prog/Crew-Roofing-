@@ -18,10 +18,10 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "RCAT | Roofing Contractors Association of Texas" },
-      { name: "description", content: "RCAT is a statewide non-profit trade association supporting Texas roofing contractors with licensing, advocacy, training, and a powerful statewide network." },
-      { property: "og:title", content: "RCAT | Roofing Contractors Association of Texas" },
-      { property: "og:description", content: "Statewide non-profit supporting Texas roofing professionals with licensing, advocacy, and training." },
+      { title: "Crew Roofing | Hamilton's Trusted Roofing Company" },
+      { name: "description", content: "Crew Roofing serves residential roofing customers in the greater Hamilton area. Full replacements, repairs, storm damage and inspections — dependability, integrity and attention to detail." },
+      { property: "og:title", content: "Crew Roofing | Hamilton, Ontario" },
+      { property: "og:description", content: "Full service residential roofing in the greater Hamilton area. Repairs, replacements, storm damage and inspections." },
       { property: "og:type", content: "website" },
     ],
   }),

@@ -11,7 +11,7 @@ export function Contact() {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">Get In Touch</span>
           <h2 className="font-display text-5xl md:text-8xl leading-[0.95] mt-4 text-balance">
-            Join the RCAT <em className="copper-text not-italic">community.</em>
+            Let's get your roof <em className="copper-text not-italic">covered.</em>
           </h2>
         </div>
 
@@ -25,17 +25,17 @@ export function Contact() {
             onSubmit={(e) => e.preventDefault()}
           >
             <div className="grid sm:grid-cols-2 gap-5">
-              <Field label="Full Name" placeholder="Jane Doe" />
-              <Field label="Phone" placeholder="(512) 555-0199" />
+              <Field label="Full Name" placeholder="Jane Smith" />
+              <Field label="Phone" placeholder="289-555-0199" />
             </div>
-            <Field label="Email" placeholder="jane@company.com" type="email" />
-            <Field label="Company / Business Name" placeholder="Doe Roofing LLC" />
+            <Field label="Email" placeholder="jane@email.com" type="email" />
+            <Field label="Property Address" placeholder="Hamilton, ON" />
             <div>
-              <label className="text-xs uppercase tracking-widest text-foreground/60">Message</label>
-              <textarea rows={4} placeholder="Tell us about your membership inquiry, licensing questions, or how we can help..." className="mt-2 w-full bg-transparent border border-border/60 rounded-xl px-4 py-3 focus:border-primary focus:outline-none transition resize-none" />
+              <label className="text-xs uppercase tracking-widest text-foreground/60">Project Details</label>
+              <textarea rows={4} placeholder="Describe your roofing needs: repairs, full replacement, inspection, storm damage..." className="mt-2 w-full bg-transparent border border-border/60 rounded-xl px-4 py-3 focus:border-primary focus:outline-none transition resize-none" />
             </div>
             <button className="group w-full inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
-              Send Message
+              Request Free Quote
               <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
             </button>
           </motion.form>
@@ -47,13 +47,13 @@ export function Contact() {
             transition={{ duration: 1, delay: 0.15 }}
             className="lg:col-span-2 space-y-4"
           >
-            <ContactCard icon={Phone} label="Phone" value="(512) 251-7690" href="tel:+15122517690" />
-            <ContactCard icon={Mail} label="Email" value="rcat.admin@rooftex.com" href="mailto:rcat.admin@rooftex.com" />
-            <ContactCard icon={MapPin} label="Headquarters" value="6080 S Hulen St, Suite 360, Fort Worth, TX 76132" />
+            <ContactCard icon={Phone} label="Phone" value="289-489-7141" href="tel:+12894897141" />
+            <ContactCard icon={Mail} label="Email" value="jay_gamble@live.ca" href="mailto:jay_gamble@live.ca" />
+            <ContactCard icon={MapPin} label="Location" value="Scotia Ave, Hamilton, ON, Canada" />
             <div className="glass rounded-2xl overflow-hidden h-64">
               <iframe
                 title="Map"
-                src="https://www.google.com/maps?q=6080+S+Hulen+St+Suite+360+Fort+Worth+TX+76132&output=embed"
+                src="https://www.google.com/maps?q=Hamilton,Ontario,Canada&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />

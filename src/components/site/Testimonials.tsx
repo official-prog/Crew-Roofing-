@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const quotes = [
-  { q: "RCAT helped me get licensed and connected with contractors across Texas. Best investment I made in my roofing business.", n: "John Martinez", l: "Dallas, TX" },
-  { q: "The licensing bootcamp was exactly what I needed. Clear, organized, and worth every minute. I passed my exam on the first try.", n: "Sarah Chen", l: "Houston, TX" },
-  { q: "RCAT advocates for us in Austin. Having a statewide voice for our industry is invaluable as a small contractor.", n: "Mike Rodriguez", l: "Fort Worth, TX" },
+  { q: "Crew Roofing replaced our entire roof in one day. Clean, professional and exactly what they quoted. Highly recommend to any Hamilton homeowner.", n: "Lisa M.", l: "Hamilton, ON" },
+  { q: "Called them after a bad storm damaged my roof. They were out the next morning, fixed everything fast and handled the insurance documentation perfectly.", n: "Mark T.", l: "Stoney Creek, ON" },
+  { q: "Jay and the crew were honest and easy to deal with. No pressure, fair price, excellent work. My neighbours have already asked for their number.", n: "Angela R.", l: "Burlington, ON" },
 ];
 
 export function Testimonials() {
@@ -11,12 +11,11 @@ export function Testimonials() {
     <section className="relative py-32 md:py-48 bg-card/30">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">Member Stories</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Customer Stories</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance max-w-3xl">
-            The trust of Texas <em className="copper-text not-italic">roofers.</em>
+            Hamilton homeowners <em className="copper-text not-italic">trust us.</em>
           </h2>
         </div>
-
         <div className="grid md:grid-cols-3 gap-6">
           {quotes.map((qu, i) => (
             <motion.figure

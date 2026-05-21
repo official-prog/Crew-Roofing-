@@ -2,14 +2,14 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 const steps = [
-  { n: "01", t: "Apply", d: "Submit your RCAT membership application online in minutes." },
-  { n: "02", t: "Review", d: "Our team reviews your credentials and application quickly." },
-  { n: "03", t: "Approval", d: "Receive your official RCAT membership certificate and ID." },
-  { n: "04", t: "Onboarding", d: "Get immediate access to member resources, discounts, and the contractor network." },
-  { n: "05", t: "Training", d: "Enroll in licensing bootcamps, technical courses, and compliance programs." },
-  { n: "06", t: "Advocacy", d: "Your membership gives RCAT the power to represent Texas roofers in Austin." },
-  { n: "07", t: "Networking", d: "Connect with 500+ fellow Texas roofing professionals at events and online." },
-  { n: "08", t: "Renewal", d: "Annual renewal keeps your benefits, discounts, and advocacy active year-round." },
+  { n: "01", t: "Contact Us", d: "Call or fill out our form — we respond fast, same day wherever possible." },
+  { n: "02", t: "Free Inspection", d: "We come to your property and assess your roof thoroughly at no charge." },
+  { n: "03", t: "Written Quote", d: "You receive a clear, itemized quote with no hidden costs or pressure." },
+  { n: "04", t: "Schedule the Work", d: "We book at a time that works for you and confirm 24 hours in advance." },
+  { n: "05", t: "Crew on Site", d: "Our experienced crew arrives on time and gets straight to work." },
+  { n: "06", t: "Quality Install", d: "Every installation follows manufacturer specs using proven materials." },
+  { n: "07", t: "Site Cleanup", d: "We clean up completely — nails, debris, packaging. Your yard is left spotless." },
+  { n: "08", t: "Final Walkthrough", d: "We inspect the finished roof with you before we consider the job done." },
 ];
 
 export function Process() {
@@ -21,9 +21,9 @@ export function Process() {
     <section id="process" ref={ref} className="relative py-32 md:py-48 bg-card/40">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-3xl mb-20">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">Membership Journey</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">How It Works</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            Eight steps. <em className="copper-text not-italic">One community.</em>
+            Simple process. <em className="copper-text not-italic">Zero stress.</em>
           </h2>
         </div>
 

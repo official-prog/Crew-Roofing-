@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const regions = ["Dallas", "Fort Worth", "Plano", "Frisco", "Austin", "San Antonio", "Houston", "Waco", "Tyler", "Hill Country"];
+const regions = ["Hamilton", "Burlington", "Stoney Creek", "Ancaster", "Dundas", "Waterdown", "Grimsby", "Oakville", "Flamborough", "Binbrook"];
 
 export function ServiceAreas() {
   return (
@@ -9,8 +9,11 @@ export function ServiceAreas() {
         <div>
           <span className="text-xs uppercase tracking-[0.3em] text-primary">Service Areas</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            Texas-wide, <em className="copper-text not-italic">member led.</em>
+            Greater Hamilton, <em className="copper-text not-italic">fully covered.</em>
           </h2>
+          <p className="text-foreground/70 mt-6 max-w-md leading-relaxed">
+            Based in Hamilton, Ontario — we serve residential roofing customers across the entire greater Hamilton area and surrounding communities.
+          </p>
           <div className="flex flex-wrap gap-2 mt-10">
             {regions.map((r, i) => (
               <motion.span
@@ -27,57 +30,31 @@ export function ServiceAreas() {
           </div>
         </div>
 
-        {/* Stylized Texas SVG */}
-        <div className="relative aspect-square max-w-lg mx-auto">
-          <svg viewBox="0 0 400 400" className="w-full h-full">
-            <defs>
-              <linearGradient id="tx" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stopColor="oklch(0.62 0.22 22)" />
-                <stop offset="100%" stopColor="oklch(0.52 0.21 22)" />
-              </linearGradient>
-              <filter id="glow">
-                <feGaussianBlur stdDeviation="4" />
-              </filter>
-            </defs>
-            {/* Simplified Texas shape */}
-            <path
-              d="M80 80 L260 80 L260 130 L320 140 L340 200 L320 260 L280 320 L240 360 L200 340 L160 360 L130 320 L100 280 L70 240 L60 180 L80 130 Z"
-              fill="none"
-              stroke="url(#tx)"
-              strokeWidth="2"
-              filter="url(#glow)"
-            />
-            <path
-              d="M80 80 L260 80 L260 130 L320 140 L340 200 L320 260 L280 320 L240 360 L200 340 L160 360 L130 320 L100 280 L70 240 L60 180 L80 130 Z"
-              fill="oklch(0.52 0.21 22 / 0.05)"
-              stroke="oklch(0.52 0.21 22 / 0.6)"
-              strokeWidth="1"
-            />
-            {[
-              { x: 220, y: 160, label: "DFW" },
-              { x: 170, y: 270, label: "Austin" },
-              { x: 200, y: 320, label: "S.A." },
-              { x: 280, y: 250, label: "Houston" },
-            ].map((p, i) => (
-              <g key={p.label}>
-                <motion.circle
-                  cx={p.x} cy={p.y} r={6}
-                  fill="oklch(0.62 0.22 22)"
-                  initial={{ opacity: 0, scale: 0 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
+        {/* Ontario / Hamilton visual */}
+        <div className="relative aspect-square max-w-lg mx-auto flex items-center justify-center">
+          <div className="glass rounded-3xl p-10 w-full text-center space-y-6">
+            <div className="font-display text-7xl md:text-8xl copper-text leading-none">ON</div>
+            <div className="text-foreground/60 text-sm uppercase tracking-widest">Ontario, Canada</div>
+            <div className="grid grid-cols-2 gap-3 mt-4">
+              {[
+                { city: "Hamilton", note: "HQ" },
+                { city: "Burlington", note: "Serviced" },
+                { city: "Stoney Creek", note: "Serviced" },
+                { city: "Ancaster", note: "Serviced" },
+              ].map((p) => (
+                <motion.div
+                  key={p.city}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: 0.5 + i * 0.15 }}
-                />
-                <motion.circle
-                  cx={p.x} cy={p.y} r={6}
-                  fill="oklch(0.62 0.22 22)"
-                  animate={{ r: [6, 18, 6], opacity: [0.6, 0, 0.6] }}
-                  transition={{ duration: 2.5, repeat: Infinity, delay: i * 0.4 }}
-                />
-                <text x={p.x + 12} y={p.y + 4} fill="oklch(0.96 0.01 80)" fontSize="11" fontFamily="Inter">{p.label}</text>
-              </g>
-            ))}
-          </svg>
+                  className="glass rounded-xl p-3 text-left"
+                >
+                  <div className="text-xs text-primary uppercase tracking-widest">{p.note}</div>
+                  <div className="font-medium text-sm mt-0.5">{p.city}</div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

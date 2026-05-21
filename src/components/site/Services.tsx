@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-import { BookOpen, Shield, Users, Award, FileCheck, Megaphone, Wrench, Star } from "lucide-react";
+import { Home, CloudLightning, Shield, Wrench, Hammer, Droplets, Search, CheckSquare } from "lucide-react";
 
 const services = [
-  { icon: BookOpen, title: "Licensing Bootcamp", desc: "Structured preparation and resources to help Texas roofing contractors get licensed with confidence.", tags: ["Licensing", "Exam Prep", "Training"] },
-  { icon: Megaphone, title: "Industry Advocacy", desc: "Legislative representation in Austin fighting for fair policies and contractor rights across Texas.", tags: ["Legislation", "Policy", "Austin"] },
-  { icon: Users, title: "Statewide Network", desc: "Connect with 500+ licensed Texas roofing contractors for referrals, partnerships, and peer support.", tags: ["Network", "Referrals", "Community"] },
-  { icon: Award, title: "Member Benefits", desc: "Exclusive discounts on materials, insurance, tools, and services through our trusted partner network.", tags: ["Discounts", "Insurance", "Suppliers"] },
-  { icon: FileCheck, title: "Code Compliance", desc: "Stay current with Texas building codes, OSHA standards, and local inspection requirements.", tags: ["Building Codes", "OSHA", "Compliance"] },
-  { icon: Shield, title: "Insurance Guidance", desc: "Expert guidance navigating insurance claims, adjusters, and documentation for storm restoration work.", tags: ["Claims", "Adjusters", "Storm"] },
-  { icon: Star, title: "Annual Conference", desc: "The Texas Roofing Conference and Expo — the premier annual event for roofing professionals statewide.", tags: ["Conference", "Expo", "Networking"] },
-  { icon: Wrench, title: "Technical Training", desc: "Hands-on training programs covering installation standards, safety protocols, and new materials.", tags: ["Safety", "Installation", "Materials"] },
+  { icon: Hammer, title: "Full Roof Replacement", desc: "Complete tear-off and replacement with quality materials, built to last through Hamilton's harsh winters.", tags: ["Shingles", "Tear-off", "Residential"] },
+  { icon: Wrench, title: "Roof Repairs", desc: "From minor leaks to major damage — fast, reliable repairs that stop problems before they grow.", tags: ["Leaks", "Patches", "Emergency"] },
+  { icon: Home, title: "Residential Roofing", desc: "Full service residential roofing for Hamilton homeowners. No job too big or too small.", tags: ["Homes", "Residential", "Hamilton"] },
+  { icon: CloudLightning, title: "Storm Damage Repair", desc: "Rapid response to wind, hail and ice damage. We assess, document and restore your roof fast.", tags: ["Storm", "Hail", "Emergency"] },
+  { icon: Droplets, title: "Leak Detection", desc: "Advanced leak tracing and waterproofing to protect your home from water damage year-round.", tags: ["Waterproofing", "Leaks", "Inspection"] },
+  { icon: Shield, title: "Flat Roofing", desc: "Expert flat and low-slope roofing systems for garages and home additions across the Hamilton area.", tags: ["Flat", "Low-slope", "Membrane"] },
+  { icon: Search, title: "Roof Inspections", desc: "Thorough inspections with detailed written reports — ideal for home buyers and insurance claims.", tags: ["Reports", "Insurance", "Buyers"] },
+  { icon: CheckSquare, title: "Eavestroughs & Gutters", desc: "Installation, repair and cleaning of eavestroughs to protect your roof and foundation.", tags: ["Gutters", "Eavestrough", "Drainage"] },
 ];
 
 export function Services() {
@@ -17,12 +17,12 @@ export function Services() {
     <section id="services" className="relative py-32 md:py-48 blueprint-grid">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl mb-20">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">Member Services</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">What We Do</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            Everything a Texas roofer <em className="copper-text not-italic">needs.</em>
+            We <em className="copper-text not-italic">"Cover"</em> it all.
           </h2>
           <p className="text-foreground/70 mt-6 max-w-xl">
-            RCAT is your single point of support for licensing, advocacy, training, and the connections that grow your roofing business across Texas.
+            From the simplest of repairs to full roof installations, Crew Roofing is Hamilton's trusted choice for residential roofing services done right the first time.
           </p>
         </div>
 
@@ -38,7 +38,6 @@ export function Services() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-transparent to-primary/0 group-hover:from-primary/10 transition-all duration-700" />
               <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-primary/0 group-hover:bg-primary/20 blur-3xl transition-all duration-700" />
-
               <div className="relative">
                 <div className="inline-flex p-3 rounded-xl bg-primary/10 text-primary mb-6 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   <s.icon className="w-5 h-5" />

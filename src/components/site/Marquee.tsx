@@ -1,6 +1,6 @@
 const words = [
-  "Licensing", "Advocacy", "Training", "RCAT Members", "Texas Roofing",
-  "Annual Conference", "Insurance Claims", "Code Compliance", "Storm Response", "Non-Profit",
+  "Roof Repairs", "Full Replacements", "Hamilton", "Residential", "Dependability",
+  "Storm Damage", "Eavestroughs", "Flat Roofing", "Inspections", "Integrity",
 ];
 
 export function Marquee() {

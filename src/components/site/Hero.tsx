@@ -3,7 +3,7 @@ import { useRef } from "react";
 import heroImg from "@/assets/hero-home.jpg";
 import { Phone, MapPin, ArrowUpRight } from "lucide-react";
 
-const sequence = ["Licensed.", "Advocating.", "Protecting Texas Roofers."];
+const sequence = ["Repairs.", "Replacements.", "Dependability."];
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -17,7 +17,7 @@ export function Hero() {
     <section ref={ref} className="relative min-h-[100svh] overflow-hidden grain">
       {/* Parallax bg */}
       <motion.div style={{ y, scale }} className="absolute inset-0">
-        <img src={heroImg} alt="Texas roofing professionals at work" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={heroImg} alt="Crew Roofing Hamilton Ontario" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-transparent to-background/40" />
       </motion.div>
@@ -55,10 +55,10 @@ export function Hero() {
 
         <h1 className="font-display text-[clamp(3rem,9vw,9rem)] leading-[0.95] tracking-tight text-balance max-w-5xl">
           <motion.span initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8, duration: 1.2, ease: [0.22, 1, 0.36, 1] }} className="block">
-            Texas Roofing
+            Hamilton's Roofing
           </motion.span>
           <motion.span initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 1.2, ease: [0.22, 1, 0.36, 1] }} className="block">
-            Professionals, <em className="copper-text not-italic">United.</em>
+            <em className="copper-text not-italic">Crew.</em>
           </motion.span>
         </h1>
 
@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          The Roofing Contractors Association of Texas (RCAT) is a statewide non-profit trade association supporting licensed roofing contractors across Texas.
+          We serve residential roofing customers in the greater Hamilton area, operating with dependability, integrity and attention to detail.
         </motion.p>
 
         <motion.div
@@ -77,15 +77,15 @@ export function Hero() {
           transition={{ delay: 1.5, duration: 1 }}
           className="mt-10 flex flex-wrap gap-3"
         >
-          <a href="#events" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3.5 font-medium hover:shadow-[var(--shadow-glow)] transition-all">
-            Get Licensed
+          <a href="#contact" className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-6 py-3.5 font-medium hover:shadow-[var(--shadow-glow)] transition-all">
+            Get Free Quote
             <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
           </a>
           <a href="#services" className="inline-flex items-center gap-2 rounded-full glass px-6 py-3.5 font-medium hover:bg-white/10 transition">
-            Member Benefits
+            Our Services
           </a>
-          <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3.5 font-medium hover:border-primary transition">
-            Join RCAT
+          <a href="tel:+12894897141" className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3.5 font-medium hover:border-primary transition">
+            Call Us Now
           </a>
         </motion.div>
 
@@ -98,29 +98,28 @@ export function Hero() {
         >
           <div className="glass rounded-2xl p-5 space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-widest text-foreground/60">RCAT Hotline</span>
+              <span className="text-xs uppercase tracking-widest text-foreground/60">Free Estimates</span>
               <span className="flex items-center gap-1.5 text-xs">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Live
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Available
               </span>
             </div>
-            <a href="tel:+15122517690" className="flex items-center gap-3 group">
+            <a href="tel:+12894897141" className="flex items-center gap-3 group">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><Phone className="w-4 h-4" /></span>
               <div>
-                <div className="text-xs text-foreground/60">Call Us</div>
-                <div className="font-medium group-hover:text-primary transition">(512) 251-7690</div>
+                <div className="text-xs text-foreground/60">Call Anytime</div>
+                <div className="font-medium group-hover:text-primary transition">289-489-7141</div>
               </div>
             </a>
             <div className="flex items-center gap-3">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><MapPin className="w-4 h-4" /></span>
               <div>
-                <div className="text-xs text-foreground/60">Headquarters</div>
-                <div className="font-medium text-sm">Fort Worth · Austin · Statewide TX</div>
+                <div className="text-xs text-foreground/60">Service Area</div>
+                <div className="font-medium text-sm">Hamilton · Burlington · Stoney Creek</div>
               </div>
             </div>
           </div>
         </motion.div>
       </motion.div>
-
     </section>
   );
 }

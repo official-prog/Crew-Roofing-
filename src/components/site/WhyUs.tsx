@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
-import { ShieldCheck, Award, MessageSquare, Heart, DollarSign, FileCheck, Sparkles, Users } from "lucide-react";
+import { ShieldCheck, Award, MessageSquare, Heart, Clock, DollarSign, Sparkles, Users } from "lucide-react";
 import blueprint from "@/assets/blueprint.jpg";
 
 const items = [
-  { i: ShieldCheck, t: "Licensed & Recognized", d: "RCAT membership is recognized statewide as the mark of a professional Texas roofing contractor." },
-  { i: Award, t: "Premium Resources", d: "Access exclusive licensing materials, training courses, and compliance guides." },
-  { i: FileCheck, t: "Advocacy-Backed", d: "Your interests represented in Austin by a dedicated non-profit trade association." },
-  { i: MessageSquare, t: "Rapid Support", d: "A knowledgeable RCAT team member answers your call or email promptly." },
-  { i: Heart, t: "Texas-Based", d: "Founded by Texas roofing professionals, for Texas roofing professionals." },
-  { i: DollarSign, t: "Member Savings", d: "Exclusive discounts on materials, insurance, and business services." },
-  { i: Users, t: "Statewide Network", d: "500+ member contractors across all 254 Texas counties." },
-  { i: Sparkles, t: "Industry Standard", d: "RCAT sets and promotes the highest standards for roofing in Texas." },
+  { i: ShieldCheck, t: "Licensed & Insured", d: "Fully licensed and insured roofing contractor operating in Hamilton, Ontario." },
+  { i: Award, t: "Quality Materials", d: "We use only proven, high-quality roofing materials built for Ontario's climate." },
+  { i: Heart, t: "Integrity First", d: "Honest assessments, fair pricing, and no upselling — ever." },
+  { i: MessageSquare, t: "Clear Communication", d: "You'll always know what's happening on your roof, start to finish." },
+  { i: Clock, t: "On Time, Every Time", d: "We respect your time and show up when we say we will." },
+  { i: DollarSign, t: "Fair & Transparent Pricing", d: "Detailed written quotes with no hidden fees or surprise charges." },
+  { i: Users, t: "Local Hamilton Crew", d: "We live and work in the Hamilton community we serve." },
+  { i: Sparkles, t: "Attention to Detail", d: "Every job is inspected before we leave. We don't cut corners." },
 ];
 
 export function WhyUs() {
@@ -21,12 +21,11 @@ export function WhyUs() {
       </div>
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="max-w-3xl mb-16">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">Why Join RCAT</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Why Choose Us</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            Built by roofers, for <em className="copper-text not-italic">roofers.</em>
+            Dependability you can <em className="copper-text not-italic">count on.</em>
           </h2>
         </div>
-
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {items.map((it, i) => (
             <motion.div
