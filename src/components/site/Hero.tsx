@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          Luxury roofing, custom construction, and elite craftsmanship across Texas — engineered for storms, finished for legacy.
+          Luxury roofing, custom construction, and elite craftsmanship across Texas, engineered for storms, finished for legacy.
         </motion.p>
 
         <motion.div

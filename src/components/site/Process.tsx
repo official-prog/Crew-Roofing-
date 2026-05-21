@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 const steps = [
-  { n: "01", t: "Consultation", d: "On-site walkthrough with a senior project lead — no high-pressure sales." },
+  { n: "01", t: "Consultation", d: "On-site walkthrough with a senior project lead, no high-pressure sales." },
   { n: "02", t: "Inspection", d: "Drone and physical inspection with a written, photographed report." },
   { n: "03", t: "Planning", d: "Engineered scope, materials list, and a transparent fixed-price proposal." },
   { n: "04", t: "Material Selection", d: "Curated premium materials from our luxury supplier network." },

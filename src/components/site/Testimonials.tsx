@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const quotes = [
   { q: "They re-roofed our home after a hailstorm and made it look better than the day we moved in. The crew was meticulous.", n: "The Hartwell Family", l: "Westlake, TX" },
   { q: "M&E built our custom hill country home from the foundation up. Five years later, it still looks like the day they handed us the keys.", n: "Daniel & Rosa Vargas", l: "Dripping Springs, TX" },
-  { q: "Best insurance claim experience I've ever had. They handled the adjuster, the paperwork, and the install — flawlessly.", n: "James O'Connor", l: "Fort Worth, TX" },
+  { q: "Best insurance claim experience I've ever had. They handled the adjuster, the paperwork, and the install, flawlessly.", n: "James O'Connor", l: "Fort Worth, TX" },
 ];
 
 export function Testimonials() {

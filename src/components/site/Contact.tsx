@@ -32,7 +32,7 @@ export function Contact() {
             <Field label="Project Address" placeholder="Dallas, TX" />
             <div>
               <label className="text-xs uppercase tracking-widest text-foreground/60">Project Details</label>
-              <textarea rows={4} placeholder="Tell us about the project — roofing, custom build, storm damage…" className="mt-2 w-full bg-transparent border border-border/60 rounded-xl px-4 py-3 focus:border-primary focus:outline-none transition resize-none" />
+              <textarea rows={4} placeholder="Tell us about the project: roofing, custom build, storm damage…" className="mt-2 w-full bg-transparent border border-border/60 rounded-xl px-4 py-3 focus:border-primary focus:outline-none transition resize-none" />
             </div>
             <button className="group w-full inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
               Request Estimate

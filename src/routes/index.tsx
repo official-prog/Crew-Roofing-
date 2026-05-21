@@ -18,9 +18,9 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "M&E Construction — Premium Texas Roofing & Custom Construction" },
+      { title: "M&E Construction | Premium Texas Roofing & Custom Construction" },
       { name: "description", content: "Luxury roofing, custom homes, storm restoration, and elite craftsmanship across Texas. Family-operated, fully insured, warranty-backed." },
-      { property: "og:title", content: "M&E Construction — Built To Last" },
+      { property: "og:title", content: "M&E Construction | Built To Last" },
       { property: "og:description", content: "Luxury roofing & custom construction across Texas." },
       { property: "og:type", content: "website" },
     ],

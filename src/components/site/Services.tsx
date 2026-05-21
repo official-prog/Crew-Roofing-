@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Hammer, Home, CloudLightning, Shield, Wrench, Building2, TreePine, Paintbrush } from "lucide-react";
 
 const services = [
-  { icon: Home, title: "Luxury Roofing Systems", desc: "Tile, metal, Boral, DaVinci, and architectural asphalt — engineered for Texas storms.", tags: ["Tile", "Metal", "Boral", "DaVinci"] },
+  { icon: Home, title: "Luxury Roofing Systems", desc: "Tile, metal, Boral, DaVinci, and architectural asphalt, engineered for Texas storms.", tags: ["Tile", "Metal", "Boral", "DaVinci"] },
   { icon: CloudLightning, title: "Storm Restoration", desc: "Rapid response, leak repair, full insurance claim navigation, and like-new restoration.", tags: ["Insurance", "Leak Repair", "Emergency"] },
   { icon: Hammer, title: "Custom Home Construction", desc: "Ground-up luxury residential construction with elite finish carpentry and architectural detailing.", tags: ["Custom Homes", "Framing", "Concrete"] },
   { icon: Building2, title: "Additions & Remodels", desc: "Structural additions, kitchen and bath remodels, garage conversions, and full exterior renovations.", tags: ["Kitchens", "Baths", "Additions"] },
