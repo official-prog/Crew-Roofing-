@@ -18,10 +18,10 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "M&E Construction | Premium Texas Roofing & Custom Construction" },
-      { name: "description", content: "Luxury roofing, custom homes, storm restoration, and elite craftsmanship across Texas. Family-operated, fully insured, warranty-backed." },
-      { property: "og:title", content: "M&E Construction | Built To Last" },
-      { property: "og:description", content: "Luxury roofing & custom construction across Texas." },
+      { title: "RCAT | Roofing Contractors Association of Texas" },
+      { name: "description", content: "RCAT is a statewide non-profit trade association supporting Texas roofing contractors with licensing, advocacy, training, and a powerful statewide network." },
+      { property: "og:title", content: "RCAT | Roofing Contractors Association of Texas" },
+      { property: "og:description", content: "Statewide non-profit supporting Texas roofing professionals with licensing, advocacy, and training." },
       { property: "og:type", content: "website" },
     ],
   }),

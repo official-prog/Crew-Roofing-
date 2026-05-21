@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-import { Hammer, Home, CloudLightning, Shield, Wrench, Building2, TreePine, Paintbrush } from "lucide-react";
+import { BookOpen, Shield, Users, Award, FileCheck, Megaphone, Wrench, Star } from "lucide-react";
 
 const services = [
-  { icon: Home, title: "Luxury Roofing Systems", desc: "Tile, metal, Boral, DaVinci, and architectural asphalt, engineered for Texas storms.", tags: ["Tile", "Metal", "Boral", "DaVinci"] },
-  { icon: CloudLightning, title: "Storm Restoration", desc: "Rapid response, leak repair, full insurance claim navigation, and like-new restoration.", tags: ["Insurance", "Leak Repair", "Emergency"] },
-  { icon: Hammer, title: "Custom Home Construction", desc: "Ground-up luxury residential construction with elite finish carpentry and architectural detailing.", tags: ["Custom Homes", "Framing", "Concrete"] },
-  { icon: Building2, title: "Additions & Remodels", desc: "Structural additions, kitchen and bath remodels, garage conversions, and full exterior renovations.", tags: ["Kitchens", "Baths", "Additions"] },
-  { icon: TreePine, title: "Outdoor Living", desc: "Patios, pergolas, outdoor kitchens, and resort-grade backyards built for hill country living.", tags: ["Pergolas", "Patios", "Fencing"] },
-  { icon: Shield, title: "Inspections & Warranty", desc: "Drone roof inspections, warranty-backed installs, and transparent multi-year coverage.", tags: ["Drone", "Warranty", "Audits"] },
-  { icon: Wrench, title: "Gutters, Chimneys, Skylights", desc: "Architectural accents and water-management systems installed with the same precision as the roof.", tags: ["Gutters", "Chimneys", "Skylights"] },
-  { icon: Paintbrush, title: "Exterior Renovations", desc: "Siding, painting, stonework, and luxury façade upgrades that transform the entire elevation.", tags: ["Siding", "Painting", "Stone"] },
+  { icon: BookOpen, title: "Licensing Bootcamp", desc: "Structured preparation and resources to help Texas roofing contractors get licensed with confidence.", tags: ["Licensing", "Exam Prep", "Training"] },
+  { icon: Megaphone, title: "Industry Advocacy", desc: "Legislative representation in Austin fighting for fair policies and contractor rights across Texas.", tags: ["Legislation", "Policy", "Austin"] },
+  { icon: Users, title: "Statewide Network", desc: "Connect with 500+ licensed Texas roofing contractors for referrals, partnerships, and peer support.", tags: ["Network", "Referrals", "Community"] },
+  { icon: Award, title: "Member Benefits", desc: "Exclusive discounts on materials, insurance, tools, and services through our trusted partner network.", tags: ["Discounts", "Insurance", "Suppliers"] },
+  { icon: FileCheck, title: "Code Compliance", desc: "Stay current with Texas building codes, OSHA standards, and local inspection requirements.", tags: ["Building Codes", "OSHA", "Compliance"] },
+  { icon: Shield, title: "Insurance Guidance", desc: "Expert guidance navigating insurance claims, adjusters, and documentation for storm restoration work.", tags: ["Claims", "Adjusters", "Storm"] },
+  { icon: Star, title: "Annual Conference", desc: "The Texas Roofing Conference and Expo — the premier annual event for roofing professionals statewide.", tags: ["Conference", "Expo", "Networking"] },
+  { icon: Wrench, title: "Technical Training", desc: "Hands-on training programs covering installation standards, safety protocols, and new materials.", tags: ["Safety", "Installation", "Materials"] },
 ];
 
 export function Services() {
@@ -17,12 +17,12 @@ export function Services() {
     <section id="services" className="relative py-32 md:py-48 blueprint-grid">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl mb-20">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">Capabilities</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Member Services</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            One firm. Every detail of the <em className="copper-text not-italic">envelope.</em>
+            Everything a Texas roofer <em className="copper-text not-italic">needs.</em>
           </h2>
           <p className="text-foreground/70 mt-6 max-w-xl">
-            From shingle to structure, M&amp;E is your single point of accountability for the most ambitious roofing and construction projects in Texas.
+            RCAT is your single point of support for licensing, advocacy, training, and the connections that grow your roofing business across Texas.
           </p>
         </div>
 

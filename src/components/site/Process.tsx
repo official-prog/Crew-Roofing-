@@ -2,14 +2,14 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 const steps = [
-  { n: "01", t: "Consultation", d: "On-site walkthrough with a senior project lead, no high-pressure sales." },
-  { n: "02", t: "Inspection", d: "Drone and physical inspection with a written, photographed report." },
-  { n: "03", t: "Planning", d: "Engineered scope, materials list, and a transparent fixed-price proposal." },
-  { n: "04", t: "Material Selection", d: "Curated premium materials from our luxury supplier network." },
-  { n: "05", t: "Construction", d: "Daily site supervision, dust control, and respect for your home." },
-  { n: "06", t: "Quality Assurance", d: "Third-party QA inspection before any invoice is sent." },
-  { n: "07", t: "Final Walkthrough", d: "Punch-list closure with the project lead and the owner." },
-  { n: "08", t: "Warranty Support", d: "Multi-year coverage with a single phone number to call." },
+  { n: "01", t: "Apply", d: "Submit your RCAT membership application online in minutes." },
+  { n: "02", t: "Review", d: "Our team reviews your credentials and application quickly." },
+  { n: "03", t: "Approval", d: "Receive your official RCAT membership certificate and ID." },
+  { n: "04", t: "Onboarding", d: "Get immediate access to member resources, discounts, and the contractor network." },
+  { n: "05", t: "Training", d: "Enroll in licensing bootcamps, technical courses, and compliance programs." },
+  { n: "06", t: "Advocacy", d: "Your membership gives RCAT the power to represent Texas roofers in Austin." },
+  { n: "07", t: "Networking", d: "Connect with 500+ fellow Texas roofing professionals at events and online." },
+  { n: "08", t: "Renewal", d: "Annual renewal keeps your benefits, discounts, and advocacy active year-round." },
 ];
 
 export function Process() {
@@ -21,9 +21,9 @@ export function Process() {
     <section id="process" ref={ref} className="relative py-32 md:py-48 bg-card/40">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-3xl mb-20">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">The Process</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Membership Journey</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            Eight steps. <em className="copper-text not-italic">Zero surprises.</em>
+            Eight steps. <em className="copper-text not-italic">One community.</em>
           </h2>
         </div>
 

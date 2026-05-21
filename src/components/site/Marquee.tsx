@@ -1,6 +1,6 @@
 const words = [
-  "Tile Roofing", "Metal Roofing", "Boral", "DaVinci", "Asphalt Shingles",
-  "Storm Restoration", "Custom Homes", "Renovations", "Outdoor Living", "Insurance Claims",
+  "Licensing", "Advocacy", "Training", "RCAT Members", "Texas Roofing",
+  "Annual Conference", "Insurance Claims", "Code Compliance", "Storm Response", "Non-Profit",
 ];
 
 export function Marquee() {

@@ -9,7 +9,7 @@ export function ServiceAreas() {
         <div>
           <span className="text-xs uppercase tracking-[0.3em] text-primary">Service Areas</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
-            Texas-wide, <em className="copper-text not-italic">locally led.</em>
+            Texas-wide, <em className="copper-text not-italic">member led.</em>
           </h2>
           <div className="flex flex-wrap gap-2 mt-10">
             {regions.map((r, i) => (
@@ -32,8 +32,8 @@ export function ServiceAreas() {
           <svg viewBox="0 0 400 400" className="w-full h-full">
             <defs>
               <linearGradient id="tx" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stopColor="oklch(0.78 0.16 50)" />
-                <stop offset="100%" stopColor="oklch(0.68 0.14 45)" />
+                <stop offset="0%" stopColor="oklch(0.62 0.22 22)" />
+                <stop offset="100%" stopColor="oklch(0.52 0.21 22)" />
               </linearGradient>
               <filter id="glow">
                 <feGaussianBlur stdDeviation="4" />
@@ -49,8 +49,8 @@ export function ServiceAreas() {
             />
             <path
               d="M80 80 L260 80 L260 130 L320 140 L340 200 L320 260 L280 320 L240 360 L200 340 L160 360 L130 320 L100 280 L70 240 L60 180 L80 130 Z"
-              fill="oklch(0.68 0.14 45 / 0.05)"
-              stroke="oklch(0.68 0.14 45 / 0.6)"
+              fill="oklch(0.52 0.21 22 / 0.05)"
+              stroke="oklch(0.52 0.21 22 / 0.6)"
               strokeWidth="1"
             />
             {[
@@ -62,7 +62,7 @@ export function ServiceAreas() {
               <g key={p.label}>
                 <motion.circle
                   cx={p.x} cy={p.y} r={6}
-                  fill="oklch(0.78 0.16 50)"
+                  fill="oklch(0.62 0.22 22)"
                   initial={{ opacity: 0, scale: 0 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
@@ -70,7 +70,7 @@ export function ServiceAreas() {
                 />
                 <motion.circle
                   cx={p.x} cy={p.y} r={6}
-                  fill="oklch(0.78 0.16 50)"
+                  fill="oklch(0.62 0.22 22)"
                   animate={{ r: [6, 18, 6], opacity: [0.6, 0, 0.6] }}
                   transition={{ duration: 2.5, repeat: Infinity, delay: i * 0.4 }}
                 />
