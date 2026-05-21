@@ -16,6 +16,12 @@ dist-ssr
 .nitro
 *.local
 
+# Lovable metadata
+.lovable/
+
+# Bun
+bun.lock
+
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars

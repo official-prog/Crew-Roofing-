@@ -38,7 +38,7 @@ export function Hero() {
       ))}
 
       {/* Content */}
-      <motion.div style={{ y: textY, opacity }} className="relative z-10 mx-auto max-w-7xl px-6 pt-40 md:pt-48 pb-24">
+      <motion.div style={{ y: textY, opacity }} className="relative z-10 mx-auto max-w-7xl px-6 pt-36 md:pt-48 pb-24">
         {/* intro sequence */}
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs tracking-[0.3em] uppercase text-foreground/60 mb-8">
           {sequence.map((s, i) => (
@@ -48,7 +48,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 + i * 0.25, duration: 0.8 }}
             >
-              <span className="text-primary mr-2">—</span>{s}
+              {s}
             </motion.span>
           ))}
         </div>
@@ -94,7 +94,7 @@ export function Hero() {
           initial={{ opacity: 0, x: 60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 1.8, duration: 1 }}
-          className="hidden lg:block absolute right-6 top-44 w-[300px]"
+          className="mt-8 w-full sm:max-w-sm lg:absolute lg:right-6 lg:top-44 lg:w-[300px] lg:mt-0"
         >
           <div className="glass rounded-2xl p-5 space-y-4">
             <div className="flex items-center justify-between">
@@ -121,14 +121,6 @@ export function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Scroll cue */}
-      <motion.div
-        initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-xs uppercase tracking-[0.3em] text-foreground/50"
-      >
-        Scroll
-        <span className="block w-px h-12 bg-gradient-to-b from-foreground/50 to-transparent" />
-      </motion.div>
     </section>
   );
 }

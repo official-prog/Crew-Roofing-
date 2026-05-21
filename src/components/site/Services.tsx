@@ -17,7 +17,7 @@ export function Services() {
     <section id="services" className="relative py-32 md:py-48 blueprint-grid">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl mb-20">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— Capabilities</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Capabilities</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
             One firm. Every detail of the <em className="copper-text not-italic">envelope.</em>
           </h2>

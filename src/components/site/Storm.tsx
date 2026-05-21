@@ -35,7 +35,7 @@ export function Storm() {
             Same-day tarping. Direct insurance liaison. Full restoration — handled by one team, from the first leak to the final shingle.
           </p>
           <a href="tel:+18001234567" className="mt-8 inline-flex items-center gap-3 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
-            <Phone className="w-4 h-4" /> (800) 123-4567 — 24/7 Line
+            <Phone className="w-4 h-4" /> (800) 123-4567 · 24/7 Line
           </a>
         </motion.div>
       </div>

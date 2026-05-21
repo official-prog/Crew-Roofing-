@@ -7,7 +7,7 @@ export function ServiceAreas() {
     <section className="relative py-32 md:py-40 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— Service Areas</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Service Areas</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
             Texas-wide, <em className="copper-text not-italic">locally led.</em>
           </h2>

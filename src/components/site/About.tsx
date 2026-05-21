@@ -20,7 +20,7 @@ export function About() {
     <section ref={ref} id="about" className="relative py-32 md:py-48 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
         <div className="lg:col-span-5 space-y-8">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— About the Firm</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">About the Firm</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] text-balance">
             A Texas family of <em className="copper-text not-italic">builders</em>, engineers, and craftsmen.
           </h2>
@@ -46,7 +46,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="lg:col-span-7 relative h-[600px] md:h-[700px]">
+        <div className="lg:col-span-7 relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px]">
           <motion.div style={{ y: y1 }} className="absolute top-0 right-0 w-[60%] h-[70%] rounded-3xl overflow-hidden shadow-[var(--shadow-elevate)]">
             <img src={crew} alt="Roofing crew at sunset" className="w-full h-full object-cover" loading="lazy" />
           </motion.div>

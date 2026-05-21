@@ -21,7 +21,7 @@ export function WhyUs() {
       </div>
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="max-w-3xl mb-16">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— Why Homeowners Choose Us</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Why Homeowners Choose Us</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
             Built like the people who <em className="copper-text not-italic">stand behind it.</em>
           </h2>

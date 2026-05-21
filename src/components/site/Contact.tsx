@@ -9,7 +9,7 @@ export function Contact() {
 
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— Start the Conversation</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Start the Conversation</span>
           <h2 className="font-display text-5xl md:text-8xl leading-[0.95] mt-4 text-balance">
             Let's build something <em className="copper-text not-italic">unforgettable.</em>
           </h2>

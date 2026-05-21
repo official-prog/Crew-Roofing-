@@ -21,7 +21,7 @@ export function Process() {
     <section id="process" ref={ref} className="relative py-32 md:py-48 bg-card/40">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-3xl mb-20">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— The Process</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">The Process</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
             Eight steps. <em className="copper-text not-italic">Zero surprises.</em>
           </h2>

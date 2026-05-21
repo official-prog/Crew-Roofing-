@@ -18,7 +18,7 @@ export function Showcase() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-end justify-between flex-wrap gap-6 mb-16">
           <div className="max-w-2xl">
-            <span className="text-xs uppercase tracking-[0.3em] text-primary">— Selected Work</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-primary">Selected Work</span>
             <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance">
               The portfolio is the <em className="copper-text not-italic">proof.</em>
             </h2>

@@ -11,7 +11,7 @@ export function Testimonials() {
     <section className="relative py-32 md:py-48 bg-card/30">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16">
-          <span className="text-xs uppercase tracking-[0.3em] text-primary">— Owner Stories</span>
+          <span className="text-xs uppercase tracking-[0.3em] text-primary">Owner Stories</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mt-4 text-balance max-w-3xl">
             The kind of trust you can only <em className="copper-text not-italic">earn.</em>
           </h2>
